@@ -1,0 +1,8 @@
+---
+# testing Java Orcale JDK 9 Ansible role
+
+- hosts: localhost
+  remote_user: root
+  roles:
+    - ansible-role-java-oracle-jdk10
+    #- { role: ansible-role-java-oracle-jdk10, java_type: server-jre, java_usr_folder: '/usr/java/server-jre', java_latest_folder: '/usr/java/latest-server-jre' }

@@ -1,0 +1,10 @@
+---
+# vars file for ansible-role-java-oracle-jdk10
+
+java_download_filename: '{{ java_type }}-{{ java_version }}.0.{{ java_update }}_{{ java_platform }}_bin.tar.gz'
+java_download_url: '{{ java_download_base_url }}/{{ java_version }}.0.{{ java_update }}+{{ java_build }}/{{ java_download_code }}/{{ java_download_filename }}'
+
+java_folder: '{{ java_usr_folder }}/jdk-{{ java_version }}.0.{{ java_update }}'
+java_archive: '{{ java_usr_folder }}/{{ java_download_filename }}'
+
+java_security_folder: '{{ java_folder }}/lib/security'
