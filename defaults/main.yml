@@ -14,7 +14,7 @@ java_bins_server_jre: [ 'pack200', 'jrunscript', 'keytool', 'schemagen', 'jjs', 
 java_bins_priority: 9
 java_bins_update: True
 
-java_type: jdk # jdk or server-jre
+java_type: jdk # jdk or serverjre
 java_version: 10
 java_update: 1
 java_build: '10'

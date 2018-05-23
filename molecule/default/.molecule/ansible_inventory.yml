@@ -18,8 +18,6 @@ jdk:
 server-jre:
   hosts:
     java-centos6-9-server-jre: *id003
-server_jre:
-  hosts:
     java-centos7-9-server-jre: *id004
 ungrouped:
   vars: {}

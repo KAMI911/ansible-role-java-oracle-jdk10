@@ -32,7 +32,7 @@ Install local (form Ansible host) JDK/Server JRE instead of downloading on targe
 
     java_type: jdk
 
-Type of Java installer - JDK is: jdk, and Server JRE is: server-jre
+Type of Java installer - JDK is: jdk, and Server JRE is: serverjre
 
     java_version: 10
 
