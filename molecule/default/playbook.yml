@@ -2,4 +2,4 @@
 - name: Converge
   hosts: all
   roles:
-    - role: ansible-role-java-oracle-jdk9
+    - role: ansible-role-java-oracle-jdk10
