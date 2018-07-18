@@ -15,10 +15,19 @@ java_bins_priority: 9
 java_bins_update: True
 
 java_type: jdk # jdk or serverjre
+
+# Server JRE or JDK 10.0.2
 java_version: 10
-java_update: 1
-java_build: '10'
-java_download_code: 'fb4372174a714e6b8c52526dc134031e'
+java_update: 2
+java_build: '13'
+java_download_code: '19aef61b38124481863b1413dce1855f'
+
+# Server JRE or JDK 10.0.1
+#java_version: 10
+#java_update: 1
+#java_build: '10'
+#java_download_code: 'fb4372174a714e6b8c52526dc134031e'
+
 java_platform: linux-x64
 
 java_usr_folder: /usr/java
