@@ -1,20 +1,20 @@
 ---
 # defaults file for ansible-role-java-oracle-jdk10
 
-force_java_install: False
+force_java_install: false
 
-java_installer_force_download: True
-java_installer_force_overwrite: True
-java_installer_keep: True
-java_installer_local: False
+java_installer_force_download: true
+java_installer_force_overwrite: true
+java_installer_keep: true
+java_installer_local: false
 
 java_bins_jdk: [ 'javap', 'jmap', 'pack200', 'jrunscript', 'jinfo', 'jcontrol', 'jmc', 'keytool', 'schemagen', 'jjs', 'rmid', 'wsgen', 'javaws', 'javadoc', 'rmic', 'servertool', 'jstatd', 'java', 'jdb', 'jar', 'rmiregistry', 'jps', 'xjc', 'javapackager', 'javac', 'wsimport', 'unpack200', 'tnameserv', 'jdeps', 'jcmd', 'appletviewer', 'idlj', 'jconsole', 'jarsigner', 'serialver', 'orbd', 'jstack', 'jstat' ]
 java_bins_server_jre: [ 'pack200', 'jrunscript', 'keytool', 'schemagen', 'jjs', 'rmid', 'wsgen', 'rmic', 'servertool', 'java', 'jar', 'rmiregistry', 'jps', 'xjc', 'javac', 'wsimport', 'unpack200', 'tnameserv', 'jdeps', 'jcmd', 'idlj', 'jarsigner', 'orbd' ]
 
 java_bins_priority: 9
-java_bins_update: True
+java_bins_update: true
 
-java_type: jdk # jdk or serverjre
+java_type: jdk  # jdk or serverjre
 
 # Server JRE or JDK 10.0.2
 java_version: 10
@@ -23,10 +23,10 @@ java_build: '13'
 java_download_code: '19aef61b38124481863b1413dce1855f'
 
 # Server JRE or JDK 10.0.1
-#java_version: 10
-#java_update: 1
-#java_build: '10'
-#java_download_code: 'fb4372174a714e6b8c52526dc134031e'
+# java_version: 10
+# java_update: 1
+# java_build: '10'
+# java_download_code: 'fb4372174a714e6b8c52526dc134031e'
 
 java_platform: linux-x64
 

@@ -21,14 +21,14 @@ platforms:
   - name: java-centos7-10-jdk
     image: milcom/centos7-systemd
     image_version: latest
-    privileged: True
+    privileged: true
     groups:
       - jdk
 
   - name: java-centos7-10-server-jre
     image: milcom/centos7-systemd
     image_version: latest
-    privileged: True
+    privileged: true
     groups:
       - server-jre
 
