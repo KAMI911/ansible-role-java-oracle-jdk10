@@ -32,7 +32,7 @@
       local_action:
         module: get_url
         url: '{{ java_download_url }}'
-        validate_certs: no
+        validate_certs: false
         headers: Cookie:oraclelicense=accept-securebackup-cookie
         dest: './{{ java_download_filename }}'
         mode: 0644
@@ -50,7 +50,7 @@
 - name: 'downloading Java 10 JDK file {{ java_download_filename }}'
   get_url:
     url: '{{ java_download_url }}'
-    validate_certs: no
+    validate_certs: false
     headers: Cookie:oraclelicense=accept-securebackup-cookie
     dest: '{{ java_archive }}'
     mode: 0644
@@ -62,7 +62,7 @@
     dest: '{{ java_usr_folder }}'
     owner: root
     group: root
-    copy: no
+    copy: false
   when: java_installed.stat.exists == false or force_java_install == true
 
 - name: 'copy Java cacerts file'
