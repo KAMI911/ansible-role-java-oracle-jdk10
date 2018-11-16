@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: java-oracle-jdk10
   author: Kálmán Szalai - KAMI
   description: "Ansible role for configuring Oracle Java 10 or Server JRE with local installation support"
   license: MIT
