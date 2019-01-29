@@ -1,6 +1,6 @@
-# Ansible Role: Installs Java 10 JDK or Server JRE
+# Ansible Role: Installs Java 10 Oracle JDK or Server JRE
 
-Java 10 JDK installation on Linux.
+Easy way of Java 10 Oracle JDK installation on Linux. Supports remote download, local download of official package, symlinking to lastest folder, alternatives settings.
 
 Travis status:   [![Build Status](https://travis-ci.org/KAMI911/ansible-role-java-oracle-jdk10.svg?branch=master)](https://travis-ci.org/KAMI911/ansible-role-java-oracle-jdk10)
 Code Climate status: [![Code Climate](https://codeclimate.com/github/KAMI911/ansible-role-java-oracle-jdk10/badges/gpa.svg)](https://codeclimate.com/github/KAMI911/ansible-role-java-oracle-jdk10)
