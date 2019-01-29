@@ -11,7 +11,10 @@ galaxy_info:
     - system
     - java
     - jdk
-    - openjdk
+    - jdk10
+    - serverjre
+    - serverjre10
+    - oracle
 
   platforms:
     - name: Ubuntu
